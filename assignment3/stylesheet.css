@@ -1,0 +1,46 @@
+a:link {
+ color: #ff0000;
+ text-decoration: none;
+}
+
+a:visited {
+ color: #00FF00;
+}
+
+a:hover {
+ color: #FFFF00;
+ text-decoration: underline;
+}
+
+h1 {
+  color:#FFFFFF;
+  background-color: #ff0000;
+}
+
+h2 {
+  color: #ffffff;
+  background-color: #c23b22;
+}
+
+h3 {
+  color: #ffffff;
+  background-color: #ff6961;
+}
+
+h4 {
+  color: #ffffff;
+  background-color: #e06750;
+}
+
+.emphasis {
+  color: #ff0000;
+}
+
+.enrollment {
+  text-decoration: underline;
+}
+
+#rosie {
+  color: #ffffff;
+  background-color: #e06750;
+}
