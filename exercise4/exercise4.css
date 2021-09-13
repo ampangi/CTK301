@@ -1,0 +1,46 @@
+a:link {
+  text-decoration: none;
+  color: #00ff00;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff0000;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #0000ff;
+}
+
+h3 {
+  background-color: yellow;
+}
+
+h4 {
+  color: yellow;
+  background-color: #005500;
+}
+
+h5 {
+  color: #B27FD5;
+}
+
+.orangespan {
+  color: orange;
+}
+
+.red {
+  color: #ff0000;
+}
+
+#purple {
+  background-color: #B27FD5;
+}
+
+#green {
+  background-color: #00aa77;
+}
