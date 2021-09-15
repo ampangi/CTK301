@@ -1,0 +1,77 @@
+a:link {
+ color: #ff0000;
+ text-decoration: none;
+}
+
+a:visited {
+ color: #00FF00;
+}
+
+a:hover {
+ color: #FFFF00;
+ text-decoration: underline;
+}
+
+h1 {
+  color:#ffb88f;
+  background-color: #ff0000;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2 {
+  color: #ff6208;
+  background-color: #c23b22;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3 {
+  color: #a63d00;
+  background-color: #ff6961;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h4 {
+  color: #b84402;
+  background-color: #e06750;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.emphasis {
+  color: #ff0000;
+}
+
+.enrollment {
+  text-decoration: underline;
+}
+
+#rosie {
+  color: #ffffff;
+  background-color: #e06750;
+}
+
+.customtext {
+  font-family: sans-serif;
+}
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+.imgbox {
+  border: 5px solid #000000;
+  padding: 5px 5px 5px 5px;
+}
+
+body {
+  background-image: url(grey.jpg);
+  background-repeat:repeat;
+  background-position: right;
+}
