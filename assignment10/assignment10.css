@@ -1,0 +1,144 @@
+/* all pages */
+
+body {
+  background-color: #26004D;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 900px;
+  border: 3px solid #8000EE;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 24px;
+  border-radius: 50px;
+}
+
+header {
+  grid-column: span 3;
+  font-family: 'Courier Prime', monospace;
+  text-align: center;
+}
+
+nav {
+  grid-column: span 3;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  width: 220px;
+
+}
+
+nav li a {
+  display: block;
+  padding: 1em;
+  color: #FFFFFF;
+  font-family: 'Courier Prime', monospace;
+  text-decoration: none;
+  text-align: center;
+  background-color: #6600CC;
+  border-radius: 50px;
+}
+
+nav li a:hover {
+  background-color: #8000EE;
+  transition: background-color 3.0s;
+}
+
+main {
+  grid-column: span 3;
+}
+
+footer {
+  grid-column: span 3;
+  margin-left: 20px;
+}
+
+h1 {
+  font-style: none;
+}
+
+p {
+  font-family: 'Courier Prime', monospace;
+}
+
+.bi {
+  font-size: 30px;
+  padding-left: 10px;
+  color: #8000EE;
+}
+
+.bi visited {
+  color: #8000EE;
+}
+
+img {
+  border: 3px solid #8000EE;
+}
+/* MAIN page only */
+
+#pageone main {
+  text-align: center;
+  font-family: 'Courier Prime', monospace;
+  padding-top: 10px;
+}
+
+#pageone main a {
+  color: #6600CC;
+  text-decoration: none;
+  font-family: 'Cinzel', serif;
+  font-size: 60px;
+}
+/*ABOUT page only */
+
+#pagetwo img {
+  border-radius: 50px;
+}
+
+#pagetwo p {
+  grid-column: span 3;
+  text-align: justify;
+}
+
+img[src="whale.jpg"] {
+  float: right;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+img[src="addams.jpg"] {
+  margin-left: 100px;
+}
+
+/*PROJECTS page only */
+
+#thumbs {
+  text-align: center;
+  grid-column: span 3;
+}
+
+#thumbs img {
+  border-radius: 24px;
+  margin: 24px;
+}
+
+.fancybox__caption {
+}
+/*SOUND DESIGN page only */
+
+iframe {
+  padding: 10px;
+}
+
+#pagefour p {
+  text-align: justify;
+}
